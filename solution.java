@@ -9,6 +9,7 @@ public class Solution {
   
   void soln2() {
     for (int i = 100; i >= 5; i—=5){
+
     }
   }
   
@@ -32,19 +33,20 @@ public class Solution {
   
   void soln5() {
     int largest = a[0];
-    For (int i = 1; i<a.length - 1; i++) {
-
-      If (a[i] > largest) largest = a[i];
+    for (int i = 1; i<a.length - 1; i++) {
+      if (a[i] > largest){
+        largest = a[i];
+      }
     }
+    System.out.println(largest);
   }
-System.out.println(largest);
-}
+
   
   void soln6() {
-
     for (int i = 0; i < a.length; i++){
-      If (a[i] == true)
-      break;
+      if (a[i] == true){
+        break;
+      }
     }
     System.out.println(i);
   }
@@ -55,69 +57,109 @@ System.out.println(largest);
       i++;
     }
     System.out.println(i);
-    }
   }
+
   
   void soln8() {
-  // and put your code here.
+    for (int i =0; i < a.length; i++) {
+      a[i] = a[i] +5;
+          }
   }
-  
+
   void soln9() {
     for (int i=0;i<a.length;i++) {
       a[i]=a[i]/1.3;
     }
   }
-  
   void soln10() {
-  // and put your code here.
+    for (int i =0; i < a.length; i++) {
+      Math.pow(a[i], 3) - a[i]/ 3)
+          }
   }
   
   void soln11() {
-  // and put your code here.
+   for (int row = 0; row < array.length; row++){
+    for ( int column = 0; column < array[i].length); column++){
+      array[row][column]=0
+            }
   }
-  
+        }
   void soln12() {
-  // and put your code here.
+      for (int row = 0; row < array.length; row++){
+        for ( int column = 0; column < array[i].length); column++){
+        array[row][column] *= 7;
+        }
   }
-  
+        }
   void soln13() {
-  // and put your code here.
+    boolean [][] result = new boolean[array.length][array[0].length];
+      for (int row = 0; row < array.length; row++){
+        for ( int column = 0; column < array[i].length); column++){
+          if ( [] %2 ==0){
+            result[i][j] = true;
+            return result;
+            }
+        }
+   }
   }
+
+  Double soln14(){
+        return Math.pow(firstPerm,secondPerm);
+        }
   
-  void soln14() {
-  // and put your code here.
-  }
-  
-  void soln15() {
-  // and put your code here.
+  boolean soln15() {
+          return Object instanceof Fish;
   }
   
   void soln16() {
-  // and put your code here.
+    if ( balance call <= 1.0){
+      System.out.println("Paid Off");
+          } else {
+      System.out.println(String.format("%.2f", balance));
+          }
   }
-  
-  void soln17() {
-  // and put your code here.
+  void soln17(){
+    While(true){
+        if(temp>76){
+          method.acOn
+        } else if(temp<72){method.headOn}
+    }
   }
-  
   void soln18() {
-  // and put your code here.
+    double pi = Math.PI;
+    for (int i = 0; i<a.length; i++) {
+      if (a[i] > pi){
+        System.out.println(a[i] + " at index" + i);
+        break;
+      }
+    }
   }
   
-  void soln19() {
-  // and put your code here.
+  void soln19(){
+    for(int i=0;i<a.length;i++) {
+      if (array[i] != null) {
+        sum += i;
+      }
+    }
+        return sum;
   }
-  
   void soln20() {
-  // and put your code here.
+   String[] reverse = new String[array.length];
+   for (int i = 0; i <= array.length/2 ; i++) {
+     reverse[i] = array[array.length - i - 1] = array[i];
+        }
+   return reverse;
   }
   
-  void soln21() {
-  // and put your code here.
+  String soln21() {
+    String table = "";
+      for (int i = 0; i < 6; i++){
+        for (int j = 0; i < 6; j++){
+          table = i*j;
+        } table += "\n";
+      } return table;
   }
-  
-  void soln22() {
-  // and put your code here.
+  Double soln22() {
+    return Math.pow(9, 2.0) + math.pow(7, 2.0);
   }
-  
 }
